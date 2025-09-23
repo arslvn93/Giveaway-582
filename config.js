@@ -1,32 +1,32 @@
 const config = {
   "meta": {
-    "pageTitle": "Win $400 Blue Jays Tickets - Summer Game Night Giveaway!",
-    "navBrandLogoText": "Julian Kashani",
+    "pageTitle": "Win $300 Raptors Date Night – Toronto Couples Giveaway!",
+    "navBrandLogoText": "Alexander Evans",
     "privacyPolicyLink": "https://property.ca/privacy"
   },
   "giveaway": {
-    "heroHeadline": "Win <span class='highlight'>Free Toronto Blue Jays Tickets</span> for an Epic Summer Game Night!",
-    "heroSubheadline": "Score two premium seats to see the Toronto Blue Jays take on the Texas Rangers, valued at $400! Make your summer unforgettable with this all-star night out. Entry closes July 25th, winner picked July 29th.",
-    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/3x4pjwf8h1rma0cqhn6tw7t808.jpg",
-    "promotionDates": "Enter from June 27th to July 25th, 2025 - winner announced July 29th!",
-    "endDate": "2025-07-26T03:59:00.000Z",
+    "heroHeadline": "Win a <span class='highlight'>$300 Raptors Date Night</span> in Toronto!",
+    "heroSubheadline": "Enjoy an exciting night out—perfect for couples, friends, or a special date! Raptors basketball. Big fun. Free night. Enter now—winner announced November 24!",
+    "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/7ys3ds5x0srme0csewmb4y78ww.jpg",
+    "promotionDates": "Enter between September 29 and November 22, 2025. Winner picked November 24!",
+    "endDate": "2025-11-23T03:59:00.000Z",
     "heroCtaText": "Enter to Win Now!",
-    "entryFormCtaText": "Enter Game Night Draw!",
-    "name": "Blue Jays Summer Game Night Giveaway",
-    "successModalHeaderText": "You’re in the Draw!",
-    "successModalMainMessage": "Your entry for the <strong>Toronto Blue Jays Summer Game Night</strong> is in! Winner will be announced July 29th and notified by email. Good luck!",
-    "successModalEmailPrompt": "Watch your email and keep July 29th on your calendar—you could be on your way to the ballpark!"
+    "entryFormCtaText": "Score My Entry!",
+    "name": "Raptors Date Night Giveaway",
+    "successModalHeaderText": "You’re In the Running!",
+    "successModalMainMessage": "Your entry for the <strong>Raptors Date Night Giveaway</strong> is in! The winner will be announced on November 24—check your inbox. Good luck!",
+    "successModalEmailPrompt": "Tell your friends about this giveaway for more chances to celebrate if you win!"
   },
   "settings": {
     "confettiColors": [
-      "#0055A4",
-      "#003366",
-      "#FFFFFF"
+      "#551D1D",
+      "#CE1141",
+      "#000000"
     ],
     "showCountdownInHero": true,
     "theme": "dark",
-    "primaryColorOverride": "#0055A4",
-    "secondaryColorOverride": "#FFEE58",
+    "primaryColorOverride": "",
+    "secondaryColorOverride": "#CE1141",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
     "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
@@ -35,234 +35,204 @@ const config = {
   },
   "thankYouPage": {
     "pageTitle": "Thank You for Your Entry!",
-    "headerText": "🎉 ONE MORE STEP",
-    "mainMessage": "Your spot for the <strong>Toronto Blue Jays Summer Game Night</strong> is almost locked in! You've made it to the final step of the giveaway - congratulations! Now all you need to do is follow my social media accounts to officially lock in your entry and stay connected",
-    "socialPromptText": "FOLLOW BOTH TO WIN! Complete Your Entry Now"
+    "headerText": "You’re In the Running!",
+    "mainMessage": "Your entry for the <strong>Raptors Date Night Giveaway</strong> is in! The winner will be announced on November 24—check your inbox. Good luck!",
+    "socialPromptText": "Tell your friends about this giveaway for more chances to celebrate if you win!"
   },
   "prize": {
     "images": [
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/hg2dnqs7yhrm80cqhn79nt68j8.jpg",
-        "alt": "Cheering fans at a Blue Jays baseball game"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/bjxhpt8zr1rme0csewmv8waj8g.jpg",
+        "alt": "Happy couple at Toronto Raptors basketball game"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/bk4ehhbc35rmc0cqhn78wzw7t8.jpg",
-        "alt": "Couple enjoying a summer night at the Rogers Centre"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/3k533zvwnxrma0csewmrkawhm0.jpg",
+        "alt": "Excited friends enjoying a night out"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/w99mghnswxrm80cqhn7bm108b0.jpg",
-        "alt": "Exciting baseball action between Toronto Blue Jays and Texas Rangers"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/8brn1dekv5rmc0csewms0bjyvm.jpg",
+        "alt": "Delicious food and drinks at Scotiabank Arena"
       },
       {
-        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/wzcq768e4drme0cqhn7v49g7tr.jpg",
-        "alt": "Tickets for a premier Blue Jays game experience"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/v1ewephmexrmc0csewn8qphwc8.jpg",
+        "alt": "Fans cheering in Toronto stadium"
+      },
+      {
+        "src": "",
+        "alt": "Toronto skyline at night"
       }
     ],
     "includedItems": [
       {
-        "icon": "fas fa-baseball-ball",
-        "text": "Two premium tickets to Blue Jays vs. Rangers"
+        "icon": "fas fa-basketball-ball",
+        "text": "2 Raptors game tickets"
       },
       {
-        "icon": "fas fa-user-friends",
-        "text": "Perfect for couples, friends, or a special family outing"
+        "icon": "fas fa-utensils",
+        "text": "$100 dining credit for food and drinks"
       },
       {
-        "icon": "fas fa-star",
-        "text": "$400 total value - for a big-time experience"
+        "icon": "fas fa-heart",
+        "text": "Amazing experience for couples or friends"
       },
       {
-        "icon": "fas fa-city",
-        "text": "Catch live baseball in downtown Toronto"
-      },
-      {
-        "icon": "fas fa-calendar-day",
-        "text": "Game date: Summer 2025, Texas Rangers matchup"
+        "icon": "fas fa-gift",
+        "text": "Perfect way to start the holidays"
       }
     ],
-    "name": "Toronto Blue Jays Summer Game Night Experience",
-    "value": "$400 Value",
-    "description": "Imagine you and your favorite person cheering in the stands as the Blue Jays play live against the Texas Rangers! Feel the rush, eat ballpark snacks, and enjoy a big summer night in the city. This giveaway gets you <span class='highlight'>two premium tickets</span> for the best seats in the house. Whether it’s a fun date or a night with a friend, you’ll remember it all year long.",
-    "limitedTimeOfferText": "Summer Only - Limited Entry!",
-    "ctaButtonText": "I Want These Game Tickets!"
+    "name": "Raptors Date Night Experience",
+    "value": "$300 Value",
+    "description": "Imagine you and your favorite person cheering for the Raptors, sharing snacks, and feeling the energy of the crowd. This <span class='highlight'>unforgettable night out</span> is the perfect way to kick off the holiday season together. Bring a friend, your partner, or make it the best date night ever!",
+    "limitedTimeOfferText": "Only one lucky winner – don’t miss your shot!",
+    "ctaButtonText": "I Want This Night Out!"
   },
   "howToEnter": {
     "steps": [
       {
         "icon": "fas fa-edit",
-        "title": "Fill Out the Form",
-        "description": "Enter your name and email in the quick form below—done in under 30 seconds!"
+        "title": "Fill Out the Entry Form",
+        "description": "Enter your name and email below. Takes less than a minute!"
       },
       {
-        "icon": "fas fa-question-circle",
-        "title": "Answer Simple Questions",
-        "description": "Tell us a little about who you’d bring and why you’d love this summer baseball night."
+        "icon": "fas fa-calendar-check",
+        "title": "Confirm Event Day Availability",
+        "description": "Make sure you’re free for the game night if you win!"
       },
       {
         "icon": "fas fa-trophy",
-        "title": "Get Your Chance to Win!",
-        "description": "That’s it! Watch your inbox—winner picked July 29th."
+        "title": "You’re In the Draw!",
+        "description": "We’ll contact the lucky winner on November 24!"
       }
     ],
     "highlights": [
       {
         "icon": "fas fa-clock",
-        "text": "Super quick and easy entry"
+        "text": "Entry takes just 30 seconds"
       },
       {
         "icon": "fas fa-gift",
-        "text": "No purchase needed"
-      },
-      {
-        "icon": "fas fa-heart",
-        "text": "Great night out with someone special"
+        "text": "100% free to enter"
       },
       {
         "icon": "fas fa-star",
-        "text": "Random, fair winner pick"
+        "text": "Only one winner – great odds!"
+      },
+      {
+        "icon": "fas fa-basketball-ball",
+        "text": "Big night out with the Raptors"
       }
-    ]
-  },
-  "rules": {
-    "finePrintText": "Please read the fine print before entering. Anyone can enter.",
-    "showTipsSection": true,
+    ],
+    "fairSelectionInfo": {
+      "title": "Fair and Random Winner Selection",
+      "text": "Winner is picked randomly from all entries after the closing date. Everyone has a fair chance."
+    },
+    "importantNotice": {
+      "title": "Winner Announcement – November 24",
+      "text": "Watch your inbox for a winner email from alexander@condos.ca! Only one lucky entry wins."
+    },
     "faq": [
       {
         "q": "Who can enter this giveaway?",
-        "a": "Anyone 18 or older living in Ontario can enter. Couples, families, and friends are welcome!"
+        "a": "Anyone 18+ in Toronto or area. You just need to be free on the event day!"
       },
       {
-        "q": "How will I know if I win?",
-        "a": "Winner will get an email from jk@property.ca on July 29th. Check your inbox and spam!"
+        "q": "When does the giveaway end?",
+        "a": "Entries close November 22, 2025. Winner picked November 24, 2025."
       },
       {
-        "q": "Do I have to pay for anything?",
-        "a": "Nope—the tickets are totally free! Just show up and enjoy the game."
+        "q": "What if I can’t make it on game night?",
+        "a": "Please only enter if you are free! Prize is not transferable."
       },
       {
-        "q": "What if I can’t make the game?",
-        "a": "If you can’t attend, let us know so someone else can use this amazing prize."
+        "q": "Is this really free?",
+        "a": "Yes! No cost to enter or claim your Raptors Date Night package."
+      },
+      {
+        "q": "How will I know if I won?",
+        "a": "Alexander will email the winner on November 24. Double-check your inbox and spam folders!"
       }
     ],
     "tips": [
-      "Double-check your email for typos—make sure you can be reached",
-      "Think of who you'd take for this special night",
-      "Tell family and friends to enter too",
-      "Follow Julian Kashani on Instagram or Facebook for the winner post"
-    ],
-    "fairSelectionInfo": {
-      "title": "Fair and Random Drawing",
-      "text": "Every entry has the same fair shot! Winner is chosen by a random draw. No tricks, just luck."
-    },
-    "importantNotice": {
-      "title": "Watch Your Email",
-      "text": "Only the email you use here will be contacted. Be sure to check your spam, too, on July 29th."
-    }
+      "Use a valid email so we can contact you",
+      "Be sure you and your guest can attend the game night",
+      "Follow Alexander on social for live updates and winner posting",
+      "Share this giveaway with friends for extra fun!"
+    ]
   },
   "entryForm": {
     "sharePlatforms": {
-      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-558.netlify.app%2Fadmin",
-      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-558.netlify.app%2Fadmin&text=Win%20Toronto%20Blue%20Jays%20Tickets%20for%20an%20Epic%20Summer%20Game%20Night!"
+      "facebook": "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fgiveaway-582.netlify.app%2Fadmin",
+      "twitter": "https://twitter.com/intent/tweet?url=https%3A%2F%2Fgiveaway-582.netlify.app%2Fadmin&text=Win%20%24300%20Raptors%20Date%20Night%20%E2%80%93%20Toronto%20Couples%20Giveaway!"
     },
-    "subtitle": "Enter your details below for a shot at your dream Blue Jays night out!",
-    "entryCountText": "Hundreds of Toronto fans are already in—don’t miss your chance!",
-    "socialSharePrompt": "Share with your friends—make it a race to win!"
+    "subtitle": "Enter below for your shot at an epic Raptors Date Night in Toronto!",
+    "entryCountText": "Hundreds have already entered! Don’t wait—grab your spot now!",
+    "socialSharePrompt": "Love the Raptors? Invite your friends and double your fun!"
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1750445840887_0",
-      "questionText": "What do you like the most about your current home?",
+      "id": "q_auto_0",
+      "questionText": "Are you looking to buy, sell, or invest in Toronto real estate in the next 12 months?",
       "options": [
-        {
-          "value": "The location",
-          "text": "The location"
-        },
-        {
-          "value": "The layout",
-          "text": "The layout"
-        },
-        {
-          "value": "The finishes (paint, lighting, etc.)",
-          "text": "The finishes (paint, lighting, etc.)"
-        },
-        {
-          "value": "The outdoor space",
-          "text": "The outdoor space"
-        }
+        { "value": "Buy", "text": "Buy" },
+        { "value": "Sell", "text": "Sell" },
+        { "value": "Invest", "text": "Invest" },
+        { "value": "None", "text": "None" }
       ]
     },
     {
-      "id": "q_auto_1750445840887_1",
-      "questionText": "Is a move on your radar in the near future?",
+      "id": "q_auto_1",
+      "questionText": "Which Toronto neighborhood is your favorite for a fun night out?",
       "options": [
-        {
-          "value": "Yes, sometime in 2025",
-          "text": "Yes, sometime in 2025"
-        },
-        {
-          "value": "Yes, in the next 1–2 years",
-          "text": "Yes, in the next 1–2 years"
-        },
-        {
-          "value": "Not at the moment",
-          "text": "Not at the moment"
-        },
-        {
-          "value": "I’m not sure yet",
-          "text": "I’m not sure yet"
-        }
+        { "value": "Downtown", "text": "Downtown" },
+        { "value": "Entertainment District", "text": "Entertainment District" },
+        { "value": "Queen West", "text": "Queen West" },
+        { "value": "Distillery District", "text": "Distillery District" }
       ]
     },
     {
-      "id": "q_auto_1750445840887_2",
-      "questionText": "What’s your current housing situation?",
+      "id": "q_auto_2",
+      "questionText": "Have you worked with Alexander Evans before?",
       "options": [
-        {
-          "value": "I rent and am interested in buying",
-          "text": "I rent and am interested in buying"
-        },
-        {
-          "value": "I own and might sell within 2 years",
-          "text": "I own and might sell within 2 years"
-        },
-        {
-          "value": "I own and am happy where I am",
-          "text": "I own and am happy where I am"
-        },
-        {
-          "value": "I’m actively looking to buy or sell now",
-          "text": "I’m actively looking to buy or sell now"
-        }
+        { "value": "Yes", "text": "Yes" },
+        { "value": "No", "text": "No" }
+      ]
+    },
+    {
+      "id": "q_auto_3",
+      "questionText": "Would you like expert tips on the best Toronto condos and event hot spots?",
+      "options": [
+        { "value": "Yes", "text": "Yes" },
+        { "value": "No", "text": "No" }
       ]
     }
   ],
   "footerContact": {
     "social": {
-      "facebook": "https://www.facebook.com/JulianKashaniRealtor",
-      "instagram": "http://instagram.com/juliankashani"
+      "facebook": "",
+      "instagram": ""
     },
     "agentContact": {
-      "name": "Julian Kashani",
+      "name": "Alexander Evans",
       "title": "Real Estate Agent",
-      "phone": "(416) 837-7775",
-      "email": "jk@property.ca"
+      "phone": "14165670295",
+      "email": "alexander@condos.ca"
     },
-    "footerDisclaimer": "This giveaway is sponsored by Julian Kashani, REALTOR®, and is not sponsored by or affiliated with the Toronto Blue Jays or Texas Rangers. Winner selected at random from entries received by July 25th, 2025. Must be 18+ and an Ontario resident to enter.",
+    "footerDisclaimer": "This giveaway is sponsored by Alexander Evans Real Estate and is not affiliated with or endorsed by the Toronto Raptors. Contest runs September 29 – November 22, 2025. Must be 18+ and a Toronto area resident. One entry per person. Winner picked at random and will be notified by email.",
     "organizerLogoUrl": "",
     "secondaryLogoUrl": "",
     "secondaryLogoAlt": "Property.Ca Brokerage Logo",
-    "organizerName": "Julian Kashani",
+    "organizerName": "Alexander Evans",
     "brokerageName": "Property.Ca",
     "address": "36 Distillery Lane Unit 500 Toronto M5A3C4",
-    "email": "jk@property.ca",
-    "phone": "(416) 837-7775",
+    "email": "alexander@condos.ca",
+    "phone": "14165670295",
     "copyrightOwner": "Property.Ca"
   },
   "deploymentInfo": {
-    "repoName": "Giveaway-558",
-    "repoUrl": "https://github.com/arslvn93/Giveaway-558",
-    "netlifyUrl": "http://Giveaway-558.netlify.app",
-    "netlifyId": "",
-    "tag": "Blue Jays Giveaway"
+    "repoName": "Giveaway-582",
+    "repoUrl": "https://github.com/arslvn93/Giveaway-582",
+    "netlifyUrl": "http://Giveaway-582.netlify.app",
+    "netlifyId": "1062681516",
+    "tag": "Raptors Date Night"
   }
 };
