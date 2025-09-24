@@ -28,16 +28,10 @@ const config = {
     "primaryColorOverride": "",
     "secondaryColorOverride": "#CE1141",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/bJbBMjcW619cJrLUJ3kY/webhook-trigger/3yNsurfrt9oBUtRBuygb",
-    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate",
     "facebookPixelId": "1057475448873422",
     "salesGeniusAppApi": "",
-    "followUpBossEmail": ""
-  },
-  "thankYouPage": {
-    "pageTitle": "Thank You for Your Entry!",
-    "headerText": "You’re In the Running!",
-    "mainMessage": "Your entry for the <strong>Raptors Date Night Giveaway</strong> is in! The winner will be announced on November 24—check your inbox. Good luck!",
-    "socialPromptText": "Tell your friends about this giveaway for more chances to celebrate if you win!"
+    "followUpBossEmail": "",
+    "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
   },
   "prize": {
     "images": [
@@ -56,10 +50,6 @@ const config = {
       {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/v1ewephmexrmc0csewn8qphwc8.jpg",
         "alt": "Fans cheering in Toronto stadium"
-      },
-      {
-        "src": "",
-        "alt": "Toronto skyline at night"
       }
     ],
     "includedItems": [
@@ -121,43 +111,55 @@ const config = {
         "icon": "fas fa-basketball-ball",
         "text": "Big night out with the Raptors"
       }
-    ],
-    "fairSelectionInfo": {
-      "title": "Fair and Random Winner Selection",
-      "text": "Winner is picked randomly from all entries after the closing date. Everyone has a fair chance."
-    },
-    "importantNotice": {
-      "title": "Winner Announcement – November 24",
-      "text": "Watch your inbox for a winner email from alexander@condos.ca! Only one lucky entry wins."
-    },
+    ]
+  },
+  "rules": {
     "faq": [
       {
-        "q": "Who can enter this giveaway?",
-        "a": "Anyone 18+ in Toronto or area. You just need to be free on the event day!"
+        "q": "Every Entry Counts",
+        "a": "The winner will be chosen at random. Every entry has the same fair chance of winning."
       },
       {
-        "q": "When does the giveaway end?",
-        "a": "Entries close November 22, 2025. Winner picked November 24, 2025."
+        "q": "Winner Chosen October 10th",
+        "a": "Check your email! The winner will be notified directly, so make sure to watch your inbox (and spam folder)."
       },
       {
-        "q": "What if I can’t make it on game night?",
-        "a": "Please only enter if you are free! Prize is not transferable."
+        "q": "Who can enter the giveaway?",
+        "a": "Anyone 18+ who can attend the Raptors game in Toronto on October 24, 2025."
       },
       {
-        "q": "Is this really free?",
-        "a": "Yes! No cost to enter or claim your Raptors Date Night package."
+        "q": "How will I know if I win?",
+        "a": "We’ll email the winner on October 10. If we don’t hear back within 48 hours, another winner will be drawn."
       },
       {
-        "q": "How will I know if I won?",
-        "a": "Alexander will email the winner on November 24. Double-check your inbox and spam folders!"
+        "q": "Do I need to pay for anything?",
+        "a": "Nope — the tickets are completely free, courtesy of James Hall Real Estate. Just show up and enjoy the game!"
+      },
+      {
+        "q": "Can I bring someone with me?",
+        "a": "Yes! The prize includes two seats so you can bring a friend, family member, or date."
+      },
+      {
+        "q": "What if I can’t make it to the game?",
+        "a": "Unfortunately, the prize is valid only for October 24, 2025, and cannot be transferred to another date. If you can’t attend, we’ll redraw for a new winner.\n\n\n\n"
       }
     ],
     "tips": [
-      "Use a valid email so we can contact you",
-      "Be sure you and your guest can attend the game night",
-      "Follow Alexander on social for live updates and winner posting",
-      "Share this giveaway with friends for extra fun!"
-    ]
+      "Double-check your email for accuracy",
+      "Add alexander@condos.ca to your contacts so you don\u0019t miss the winner email",
+      "Share with friends so they can enter too (but only one winner!)",
+      " Follow @alexandertherealtor on Instagram and Facebook for updates"
+    ],
+    "finePrintText": "",
+    "showTipsSection": true,
+    "fairSelectionInfo": {
+      "title": "",
+      "text": ""
+    },
+    "importantNotice": {
+      "title": "",
+      "text": ""
+    }
   },
   "entryForm": {
     "sharePlatforms": {
@@ -170,42 +172,90 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_0",
+      "id": "q_auto_1758677934937_0",
       "questionText": "Are you looking to buy, sell, or invest in Toronto real estate in the next 12 months?",
       "options": [
-        { "value": "Buy", "text": "Buy" },
-        { "value": "Sell", "text": "Sell" },
-        { "value": "Invest", "text": "Invest" },
-        { "value": "None", "text": "None" }
+        {
+          "value": "Buy",
+          "text": "Buy"
+        },
+        {
+          "value": "Sell",
+          "text": "Sell"
+        },
+        {
+          "value": "Invest",
+          "text": "Invest"
+        },
+        {
+          "value": "None",
+          "text": "None"
+        }
       ]
     },
     {
-      "id": "q_auto_1",
+      "id": "q_auto_1758677934937_1",
       "questionText": "Which Toronto neighborhood is your favorite for a fun night out?",
       "options": [
-        { "value": "Downtown", "text": "Downtown" },
-        { "value": "Entertainment District", "text": "Entertainment District" },
-        { "value": "Queen West", "text": "Queen West" },
-        { "value": "Distillery District", "text": "Distillery District" }
+        {
+          "value": "Downtown",
+          "text": "Downtown"
+        },
+        {
+          "value": "Entertainment District",
+          "text": "Entertainment District"
+        },
+        {
+          "value": "Queen West",
+          "text": "Queen West"
+        },
+        {
+          "value": "Distillery District",
+          "text": "Distillery District"
+        }
       ]
     },
     {
-      "id": "q_auto_2",
+      "id": "q_auto_1758677934937_2",
       "questionText": "Have you worked with Alexander Evans before?",
       "options": [
-        { "value": "Yes", "text": "Yes" },
-        { "value": "No", "text": "No" }
+        {
+          "value": "Yes",
+          "text": "Yes"
+        },
+        {
+          "value": "No",
+          "text": "No"
+        }
       ]
     },
     {
-      "id": "q_auto_3",
+      "id": "q_auto_1758677934937_3",
       "questionText": "Would you like expert tips on the best Toronto condos and event hot spots?",
       "options": [
-        { "value": "Yes", "text": "Yes" },
-        { "value": "No", "text": "No" }
+        {
+          "value": "Yes",
+          "text": "Yes"
+        },
+        {
+          "value": "No",
+          "text": "No"
+        }
       ]
     }
   ],
+  "thankYouPage": {
+    "socialLinks": {
+      "facebook": "",
+      "instagram": "",
+      "twitter": "",
+      "tiktok": ""
+    },
+    "pageTitle": "Thank You for Your Entry!",
+    "headerText": "You’re In the Running!",
+    "mainMessage": "Your entry for the <strong>Raptors Date Night Giveaway</strong> is in! The winner will be announced on November 24—check your inbox. Good luck!",
+    "socialPromptText": "Tell your friends about this giveaway for more chances to celebrate if you win!"
+  },
   "footerContact": {
     "social": {
       "facebook": "",
