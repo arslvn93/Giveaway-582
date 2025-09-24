@@ -172,74 +172,68 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1758726170240_0",
-      "questionText": "Are you looking to buy, sell, or invest in Toronto real estate in the next 12 months?",
+      "id": "q_auto_1758738861387_0",
+      "questionText": "What do you like the most about your current home?",
       "options": [
         {
-          "value": "Buy",
-          "text": "Buy"
+          "value": "The location",
+          "text": "The location"
         },
         {
-          "value": "Sell",
-          "text": "Sell"
+          "value": "The layout",
+          "text": "The layout"
         },
         {
-          "value": "Invest",
-          "text": "Invest"
+          "value": "The finishes (paint, lighting, etc.)",
+          "text": "The finishes (paint, lighting, etc.)"
         },
         {
-          "value": "None",
-          "text": "None"
+          "value": "Yes, sometime in 2025",
+          "text": "Yes, sometime in 2025"
         }
       ]
     },
     {
-      "id": "q_auto_1758726170240_1",
-      "questionText": "Which Toronto neighborhood is your favorite for a fun night out?",
+      "id": "q_auto_1758738861387_1",
+      "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
-          "value": "Downtown",
-          "text": "Downtown"
+          "value": "Yes, sometime in 2025",
+          "text": "Yes, sometime in 2025"
         },
         {
-          "value": "Entertainment District",
-          "text": "Entertainment District"
+          "value": "Yes, in the next 1 - 2 years",
+          "text": "Yes, in the next 1 - 2 years"
         },
         {
-          "value": "Queen West",
-          "text": "Queen West"
+          "value": "Not at the moment",
+          "text": "Not at the moment"
         },
         {
-          "value": "Distillery District",
-          "text": "Distillery District"
+          "value": "I'm not sure yet",
+          "text": "I'm not sure yet"
         }
       ]
     },
     {
-      "id": "q_auto_1758726170241_2",
-      "questionText": "Have you worked with Alexander Evans before?",
+      "id": "q_auto_1758738861387_2",
+      "questionText": "What's your current housing situation?",
       "options": [
         {
-          "value": "Yes",
-          "text": "Yes"
+          "value": "I rent and am interested in buying",
+          "text": "I rent and am interested in buying"
         },
         {
-          "value": "No",
-          "text": "No"
-        }
-      ]
-    },
-    {
-      "id": "q_auto_1758726170241_3",
-      "questionText": "Would you like expert tips on the best Toronto condos and event hot spots?",
-      "options": [
-        {
-          "value": "Yes",
-          "text": "Yes"
+          "value": "I own and might sell within 2 years",
+          "text": "I own and might sell within 2 years"
         },
         {
-          "value": "No",
-          "text": "No"
+          "value": "I own and am happy where I am",
+          "text": "I own and am happy where I am"
+        },
+        {
+          "value": "I'm actively looking to buy or sell now",
+          "text": "I'm actively looking to buy or sell now"
         }
       ]
     }
