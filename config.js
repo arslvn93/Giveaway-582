@@ -172,7 +172,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1758677934937_0",
+      "id": "q_auto_1758724977676_0",
       "questionText": "Are you looking to buy, sell, or invest in Toronto real estate in the next 12 months?",
       "options": [
         {
@@ -194,7 +194,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1758677934937_1",
+      "id": "q_auto_1758724977676_1",
       "questionText": "Which Toronto neighborhood is your favorite for a fun night out?",
       "options": [
         {
@@ -216,7 +216,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1758677934937_2",
+      "id": "q_auto_1758724977676_2",
       "questionText": "Have you worked with Alexander Evans before?",
       "options": [
         {
@@ -230,7 +230,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1758677934937_3",
+      "id": "q_auto_1758724977676_3",
       "questionText": "Would you like expert tips on the best Toronto condos and event hot spots?",
       "options": [
         {
@@ -268,8 +268,8 @@ const config = {
       "email": "alexander@condos.ca"
     },
     "footerDisclaimer": "This giveaway is sponsored by Alexander Evans Real Estate and is not affiliated with or endorsed by the Toronto Raptors. Contest runs September 29 – November 22, 2025. Must be 18+ and a Toronto area resident. One entry per person. Winner picked at random and will be notified by email.",
-    "organizerLogoUrl": "",
-    "secondaryLogoUrl": "",
+    "organizerLogoUrl": "https://iili.io/Kcu5xN2.webp",
+    "secondaryLogoUrl": "https://iili.io/Kcu5xN2.webp",
     "secondaryLogoAlt": "Property.Ca Brokerage Logo",
     "organizerName": "Alexander Evans",
     "brokerageName": "Property.Ca",
