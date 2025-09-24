@@ -59,10 +59,6 @@ const config = {
       },
       {
         "icon": "fas fa-utensils",
-        "text": "$100 dining credit for food and drinks"
-      },
-      {
-        "icon": "fas fa-heart",
         "text": "Amazing experience for couples or friends"
       },
       {
@@ -72,7 +68,7 @@ const config = {
     ],
     "name": "Raptors Date Night Experience",
     "value": "$300 Value",
-    "description": "Imagine you and your favorite person cheering for the Raptors, sharing snacks, and feeling the energy of the crowd. This <span class='highlight'>unforgettable night out</span> is the perfect way to kick off the holiday season together. Bring a friend, your partner, or make it the best date night ever!",
+    "description": "Imagine you and your favorite person cheering for the Raptors, soaking in the energy of Scotiabank Arena, and being part of the unforgettable excitement of game night. This prize is the perfect way to kick off the holiday season together. Bring a friend, your partner, or make it the best date night ever!",
     "limitedTimeOfferText": "Only one lucky winner – don’t miss your shot!",
     "ctaButtonText": "I Want This Night Out!"
   },
@@ -172,7 +168,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1758747223569_0",
+      "id": "q_auto_1758747307667_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -194,7 +190,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1758747223569_1",
+      "id": "q_auto_1758747307667_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -216,7 +212,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1758747223570_2",
+      "id": "q_auto_1758747307667_2",
       "questionText": "What's your current housing situation?",
       "options": [
         {
