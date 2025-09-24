@@ -6,7 +6,7 @@ const config = {
   },
   "giveaway": {
     "heroHeadline": "Win a <span class='highlight'>$300 Raptors Date Night</span> in Toronto!",
-    "heroSubheadline": "Enjoy an exciting night out—perfect for couples, friends, or a special date! Raptors basketball. Big fun. Free night. Enter now—winner announced November 24!",
+    "heroSubheadline": "Enjoy an unforgettable night out — perfect for couples, friends, or a fun date! Raptors basketball. Big fun. Free night. Enter now — winner announced November 24!",
     "heroBackgroundImageUrl": "https://salesgenius.s3.ca-central-1.amazonaws.com/giveaways/generations/7ys3ds5x0srme0csewmb4y78ww.jpg",
     "promotionDates": "Enter between September 29 and November 22, 2025. Winner picked November 24!",
     "endDate": "2025-11-23T03:59:00.000Z",
@@ -172,7 +172,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1758738861387_0",
+      "id": "q_auto_1758747223569_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -194,7 +194,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1758738861387_1",
+      "id": "q_auto_1758747223569_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -216,7 +216,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1758738861387_2",
+      "id": "q_auto_1758747223570_2",
       "questionText": "What's your current housing situation?",
       "options": [
         {
