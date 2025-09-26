@@ -28,7 +28,7 @@ const config = {
     "primaryColorOverride": "",
     "secondaryColorOverride": "#CE1141",
     "ghlWebhookUrl": "https://services.leadconnectorhq.com/hooks/rPpgaEqFM2xVOZ0S4OgR/webhook-trigger/KHtTKUry7x1iQeudDsB6",
-    "facebookPixelId": "1057475448873422",
+    "facebookPixelId": "968004578798783",
     "salesGeniusAppApi": "",
     "followUpBossEmail": "",
     "webhookUrl": "https://n8n.salesgenius.co/webhook/giveawayupdate"
@@ -168,7 +168,7 @@ const config = {
   },
   "modalQuestions": [
     {
-      "id": "q_auto_1758823927812_0",
+      "id": "q_auto_1758913669038_0",
       "questionText": "What do you like the most about your current home?",
       "options": [
         {
@@ -190,7 +190,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1758823927812_1",
+      "id": "q_auto_1758913669038_1",
       "questionText": "Is a move on your radar in the near future?",
       "options": [
         {
@@ -212,7 +212,7 @@ const config = {
       ]
     },
     {
-      "id": "q_auto_1758823927812_2",
+      "id": "q_auto_1758913669038_2",
       "questionText": "What's your current housing situation?",
       "options": [
         {
